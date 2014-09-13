@@ -1,0 +1,118 @@
+*{margin:0px;padding:0px;}
+
+body {padding-top:0px;font-family:Arial, Helvetica, sans-serif;font-family:12px;    /*background-image: url(../img/icons/bgdot.jpg); */				}
+h3,h4{padding:0px;margin:0px; overflow:hidden;}
+a {text-decoration:none; color:#333;}
+a:visited {text-decoration:none; color:#333;}
+a:hover	{	text-decoration:none; color:#7a0026;	}
+
+#header_wrapper,#footer_wrap {float:left;clear:both;background-color: #aedb72; width:100%; min-width:300px;  padding: 7px 0; min-height:42px; }
+#global_Container_wrap {height:auto; z-index:0;position:relative; }
+#MainWrapper{margin: 0px auto 0px auto; min-width:340px; overflow: hidden;max-width:1024px; position:relative; outline :2px dotted #aedb72;}
+#contentWrapper{text-align:left;background-color:#9999; padding: 1%;margin: 0;width:98%; min-width:300px;
+							min-height:566px;	float:left; }
+#header{	z-index: 900;  width:100%; float:left; position: relative; text-align: center;}
+#header>a{	float:left; padding:7px; font-weight:bolder;font-size:24px; min-width:100px; margin:0 0 0 20px;  cursor:pointer;
+					background-color:#FFFFFF; -moz-border-radius: 4px;-webkit-border-radius:4px; border-radius:4px;
+				text-align:center;}
+#header tags{	float:left; }
+#header tags a{ float:left; padding:7px; font-weight:bolder;font-size:14px; min-width:50px; margin:7px 0 0 20px;  cursor:pointer;
+					background-color:#EEE; -moz-border-radius: 4px;-webkit-border-radius:4px; border-radius:4px;
+						text-align:center; text-transform:capitalize;}
+#header tags a:hover, #header>a:hover{ outline: 1px dotted #333; background-color:#FFF;}
+
+#footer {	min-width:340px; width:34%; margin: 0 auto 0 auto; padding:5px 0 3px 0; position: relative; font-size:13px;
+			font-weight:bolder; text-align:center; cursor:default; border:1px solid #AAF;}
+#footer:hover{ border:1px solid #333; background-color:#EEE; -moz-border-radius: 4px;-webkit-border-radius:4px; border-radius:4px;}
+
+.create_mid_buttton{width:auto;min-width:50px;background-color:#f34c12; padding: 2px 5px 2px 5px;float:left;margin:0px 0px 0px 0px;
+					min-height:10px;color:#FFF;	border:outset 1px #333;font-weight:bold; font-size:12px;text-align:center; cursor:pointer;
+					-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;
+					user-select: none;}
+.create_mid_buttton:hover {background-color:#1fc8f8;}
+
+	#work_field, #index_out_wrap , #result_out_wrap {float:left; width:100%; }
+	#work_field{padding:10px 0 0 20px; position:relative;}
+	.work_field_msg{font-size: 10px;    left: 120px;    position: absolute;    bottom: -8px;    font-weight: bold;    color: #F00;    padding: 0 2px;    background-color: #EEE; display:none;}
+	#work_field each{float:left; font-size:17px; font-weight:bolder; margin: 2px 4px;}
+	#work_field input{float:left;padding:5px; text-align:center; font-size:17px; margin:-5px 0 0 0; font-weight:bold; color:#00F;}
+	#work_field select{float:left;padding:5px;font-size:17px; margin:-5px 0 0 0; font-weight:bold;}
+	
+	#Record_getting{ float:left;width:460px; min-height:500px; margin:10px 0 0 10px; }
+	#Record_getting h4{  margin:5px;}
+	#Record_getting h4 b{ background-color:#f7c3a4; padding:5px;}
+	
+	#Record_getting header{    min-width:450px; font-weight:bolder; font-size:15px; float:left; height:25px;}
+	#Record_getting each, #gameResult each {    min-width:450px; font-weight:bolder; font-size:13px;float:left; height:25px;}
+	#popular_predict wrap_no, #popular_predict name, #last_predict wrap, #last_predict host, #last_predict wrap_no, #last_predict name,
+	#Record_getting wrap{ float:left;	border:1px solid #CCCCCC;    color:#333333;       padding:4px;    text-align:center;
+							height:15px; overflow:hidden; width:12%;}
+	#last_predict header wrap, #last_predict header host, #popular_predict header name,  #popular_predict header wrap_no, #last_predict header name,  #last_predict header wrap_no, 
+	#Record_getting header wrap{color:#25FF; background-color:#BBB;}
+	#last_predict each wrap, #last_predict each host, 
+		#popular_predict each wrap_no, #popular_predict each name, #last_predict each wrap_no, #last_predict each name,
+	#Record_getting each wrap{font-size:14px;color:#7b2e00;}
+	#last_predict each wrap, #popular_predict each wrap_no, #popular_predict each name, #last_predict each wrap_no, #last_predict each name, #last_predict each host{ height:35px; padding-top:5px;}
+	#last_predict  host{ width:10%;}
+	#popular_predict name,#last_predict  name{ width:21%;}
+	#last_predict  wrap_no{ width:7%;}
+	
+	#company_logo{ float:none;width:95%; height:75px ; border:1px solid #999; margin:10px auto;  overflow:auto;}
+	#company_logo div{ float:none; text-align:center;}
+	#company_description{ float:left;width:500px; max-height:330px ; border:1px solid #999; margin:10px 0 20px 5px; padding:10px 10px; overflow:auto;}
+	#company_description p{ clear:both; margin:10px 0 0 5px; padding:10px 10px; line-height:130%;}
+	#last_predict{ float:left;width:500px; min-height:80px ; border:1px solid #999; margin:10px 0 0 5px; padding:10px 10px;}
+	#predict_getting{ float:left;width:480px; height:80px ; border:1px solid #999; margin:10px 0 0 0; padding:10px 20px;}
+	#predict_getting predict {  font-weight:bold; font-size:13px;float:left; height:25px;}
+	#predict_getting value { font-weight:bolder; font-size:13px;float:left; height:25px; color:#009; background-color:#EEE; margin-left:10px;}
+	
+	#graph_getting{ float:left;width:500px; min-height:300px; margin:3px 0 0 20px; overflow: hidden; border-width:0;}
+	
+	 #last_predict{ clear:both; width:671px; margin:0 auto; float:none; border-width:0;}
+	 #popular_predict{ float:left; width:300px; margin:0 0 20px 14px;}
+	 #popular_predict wrap_no{ width:20px; font-weight:bolder;}
+	 #popular_predict name{ width:260px; font-weight:bolder;}
+	 #popular_predict each wrap_no, #popular_predict each name{ height:20px; padding-top:10px; }
+			#last_predict each wrap, #last_predict each host{ font-weight:bold;}
+			#Record_getting each wrap{ font-size:12px;}
+			#popular_predict a,#last_predict a{ font-weight:bold;}
+			#popular_predict a:hover, #last_predict a:hover{ background-color:#9edcf5;}
+.right_full{float:left; width:96%; min-height:100px; border:1px solid red; margin:4px 0;
+								padding:5px 1% 5px 2%;}
+			.page_like{height:70px; width:50px;float:left; margin:12px 10px 0 0}
+		.read_data_sqr_ad{float:right; width:320px; margin:15px; height:280px; overflow:hidden;}
+		.read_data_hrz_ad{float:right; width:725px; margin:10px 10px;   }
+		.read_data_vrt_ad{float:none; clear:both; width:170px; margin:5px auto; height:610px;  }
+
+#stockTicker_wrap { clear:both;	color: #cccccc;	background-color: #3B3B3B;	font-family:"Lucida Console", Monaco, monospace;	position:relative;
+				height:25px; 	width:100%; overflow:hidden;	font-size: 14px; padding:7px 0 0 0; font-weight:bold;}
+#stockTicker_cont {	position:absolute;	left:0px;	line-height:20px;	white-space:nowrap;	}
+.stockbox {	margin:0 10px;}
+.stockbox a {	color: #cccccc;	text-decoration : underline;	}
+.hidden{display:none;}
+/* #Tablet (Portrait)
+================================================== */
+
+@media only screen and (min-width: 350px) and (max-width: 1024px) {
+
+	#Record_getting{ float:none; clear:both; width:95%; max-width:460px; min-height:100px; margin:20px auto; }
+	#predict_getting{ float:none; clear:both; width:95%; max-width:460px; min-height:100px; margin:20px auto; }
+	#graph_getting_parent{ float:none; clear:both; width:95%; max-width:460px; min-height:100px; margin:20px auto; }
+	#company_description{ float:none; clear:both; width:95%; max-width:460px; min-height:100px; margin:20px auto; }
+	#graph_getting{ float:none; clear:both; width:95%; max-width:460px; min-height:100px; margin:20px auto; }
+
+   }
+
+/* #Tablet (Portrait)
+================================================== */
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+   }
+
+ /*  #Mobile (Portrait)
+================================================== */
+   @media only screen and (max-width: 750px) {
+
+   	#header>a{float: none; display: inline-table;}
+  
+}
